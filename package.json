@@ -1,0 +1,25 @@
+{
+  "name": "bennet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "bennet",
+  "author": "cooper25",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.8.1",
+    "gatsby-plugin-google-analytics": "^3.8.0",
+    "gatsby-plugin-react-helmet": "^4.8.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  }
+}
