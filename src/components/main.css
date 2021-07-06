@@ -1,0 +1,26 @@
+body {
+    background: black;
+    margin: 0px;
+    padding: 0px;
+}
+.right-gallery-container {
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    padding: 5vh;
+    box-sizing: border-box;
+    background: white;
+}
+.gallery-box {
+    background: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.788) 0%, rgba(14,10,1,0) 30%, rgba(253,187,45,0) 100%);
+    width: 18vw;
+    height: 11vw;
+    border-radius: 10px;
+}
+.gallery-box span {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+}
