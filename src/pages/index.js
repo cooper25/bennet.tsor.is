@@ -4,11 +4,11 @@ import "../components/main.css"
 const IndexPage = () => {
   return (
     <main>
-      <div class="right-gallery-container">
-        <div className="gallery-box">
-          <span>Example Text</span>
-        </div>
-      </div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Projects</a></li>
+      </ul>
+      <div className="background-image"></div>
     </main>
   )
 }
