@@ -5,7 +5,7 @@ import gitlab from "../images/icons/gitlab.png"
 import element from "../images/icons/element.png"
 import email from "../images/icons/email.png"
 
-var description = "Hello! I am a Hobbyest Programmer based out of the US, I'm pretty new to programming but I'm getting better; I know Rust, Arduino, Makefile, C++, and Bash Script."
+var description = "Hello! I am a Hobbyist Programmer based out of the US, I'm pretty new to programming but I'm getting better; I know Rust, Arduino, Makefile, C++, and Bash Script."
 
 const IndexPage = () => {
   return (
