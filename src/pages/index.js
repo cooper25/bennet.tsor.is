@@ -20,6 +20,7 @@ const IndexPage = () => {
           <nav>
             <li><a style={{fontWeight: 700}} href="/">Home</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/users/t4rtp1ck73-in-the-terminal/projects">Projects</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/t4rtp1ck73-in-the-terminal/aio-backup">Latest Project</a></li>
           </nav><br style={{lineHeight: "50px"}}/>
           <h1>Bennet Tsoris</h1><br/>
           <span id="tagline">Hobbyist Programmer</span>
