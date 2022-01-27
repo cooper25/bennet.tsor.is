@@ -1,9 +1,18 @@
 import * as React from "react";
 import Helmet from "react-helmet";
+import Plausible from 'plausible-tracker'
 import "../components/main.css";
 import gitlab from "../images/icons/gitlab.png"
 import element from "../images/icons/element.png"
 import email from "../images/icons/email.png"
+
+// Plausible Analytics
+ const { enableAutoPageviews } = Plausible({
+   domain: 'bennet.tsor.is',
+   trackLocalhost: true,
+   apiHost: 'plausible.tsor.is'
+ })
+ enableAutoPageviews()
 
 var description = "Hello! I am a Hobbyist Programmer based out of the US, I'm pretty new to programming but I'm getting better; I know Rust, Arduino, Makefile, C++, and Bash Script."
 
