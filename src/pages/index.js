@@ -10,7 +10,7 @@ import email from "../images/icons/email.png"
  const { enableAutoPageviews } = Plausible({
    domain: 'bennet.tsor.is',
    trackLocalhost: true,
-   apiHost: 'plausible.tsor.is'
+   apiHost: 'https://plausible.tsor.is'
  })
  enableAutoPageviews()
 
